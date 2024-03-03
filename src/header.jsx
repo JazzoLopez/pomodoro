@@ -13,7 +13,7 @@ export default function Header({ time, currentTime, setCurrentTime, setTime }) {
         <View style={{ flexDirection: "row" }} >
             {options.map((item, index) => (
                 <TouchableOpacity key={index} onPress={() => handlePress(index)} style={[styles.itemStyle, currentTime !== index && {borderColor:"transparent"}]}>
-                    <Text style={{fonñtWeight: "bold"}}>{item}</Text>
+                    <Text style={{fontWeight: "bold"}}>{item}</Text>
                 </TouchableOpacity>
             ))}
         </View>

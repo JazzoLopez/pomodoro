@@ -37,5 +37,8 @@ const styles = StyleSheet.create({
     flex: 1,
 
   },
-  text: { fontSize: 32, fontWeight: "bold" }
+  text: { 
+    fontSize: 32, 
+    fontWeight: "bold",
+    textAlign: "center"}
 });
